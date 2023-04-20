@@ -20,6 +20,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+.flex-col{
+    flex-direction: column;
+}
 
 /*header*/
 
@@ -39,7 +42,7 @@ header{
 
 /*SECTION APP STORE*/
 
-section.app-store{
+div.container{
     gap: 1.5rem;
 }
 
@@ -63,14 +66,14 @@ section.app-store{
     width: calc( (100% / 3) * 2);
     }
 
-    section.app-store{
+    .app-store{
         background-color: aqua;
     }
 }
 
 /*SECTION STRATEGIC PLANNING*/
 
-section.planning{
+.planning{
     background-color: #9592e5;
 }
 
@@ -85,7 +88,7 @@ section.planning{
 }
 
 @media screen and (min-width:768px){
-    section.planning>.items{
+    .planning>.container>.items{
         width: 50%;
     }
 }
