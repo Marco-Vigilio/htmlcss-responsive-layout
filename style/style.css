@@ -88,7 +88,15 @@ div.container{
 }
 
 i{
-    width: 4rem;
+    font-size: 4rem;
+}
+
+.app-store .cells{
+    text-align: center;
+}
+
+.app-store .cell-big > div:first-child{
+    text-align: left;
 }
 
 @media screen and (min-width:480px) {
