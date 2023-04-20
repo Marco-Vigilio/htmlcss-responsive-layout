@@ -70,9 +70,7 @@ div.container{
 
 /*SECTION APP STORE*/
 
-.app-store .cells > div{
-    width: calc(100%/2);
-}
+
 
 .cells{
     width: 100%;
@@ -100,13 +98,18 @@ i{
 }
 
 @media screen and (min-width:480px) {
-    
     .cells{
         width: calc(100%/3 - 1.5rem); /*ATTENZIONE AL GAP*/
     }
 
     .cell-big{
     width: calc( (100% / 3) * 2);
+    }
+}
+
+@media screen and (min-width:768px){
+    .app-store .cells > div{
+        width: calc(100%/2);
     }
 }
 
