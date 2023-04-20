@@ -82,7 +82,7 @@ div.container{
 }
 
 .app-store img{
-    width: 70%;
+    width: 70%;/*---------------------------dim immagine*/
 }
 
 i{
@@ -130,16 +130,38 @@ i{
 .items{
     width: 100%;
     margin: 0 auto;
-    border-radius: 5rem;
-
+    border-radius: 4rem;
+    padding: 2rem;
     /*da cancellare sotto*/
     background-color: yellow;
-    height: 300px;
+    border: 1px black solid;
+}
+
+.planning img{
+    width: 100%;/*---------------------------dim immagine*/
+}
+
+.planning>.container>.items:last-child{
+    text-align: center;
+}
+
+.planning>.container>.items:last-child>img{
+    width: 70%;
+}
+
+.freccia{
+    border-radius:50%;
+    border: 1px solid black;
 }
 
 @media screen and (min-width:768px){
     .planning>.container>.items{
         width: calc((100% / 2) - 1.5rem); /*ATTENZIONE AL GAP*/
+    }
+
+    .planning>.container>.items:last-child{
+        margin-top: 8rem;
+        width: 40%;
     }
 }
 
