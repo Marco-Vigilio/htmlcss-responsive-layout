@@ -24,10 +24,30 @@
     flex-direction: column;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 .5rem;
+}
+
 /*header*/
 
 header{
     background-color: #0084fd;
+    color: white;
+}
+
+nav>ul{
+    padding: .8rem 0;
+    align-items: center;
+}
+
+nav img{
+    width: 78%;
 }
 
 @media screen and (min-width: 768px){
@@ -36,7 +56,7 @@ header{
     }
 
     .container{
-        width: 1000px;
+        width: 940px;
     }
 }
 
@@ -64,10 +84,6 @@ div.container{
 
     .cell-big{
     width: calc( (100% / 3) * 2);
-    }
-
-    .app-store{
-        background-color: aqua;
     }
 }
 
