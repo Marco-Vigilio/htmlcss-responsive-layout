@@ -37,7 +37,7 @@ header{
     }
 }
 
-/*section app store*/
+/*SECTION APP STORE*/
 
 section.app-store{
     gap: 1.5rem;
@@ -46,7 +46,7 @@ section.app-store{
 .cells{
     width: 100%;
     margin: 0 auto;
-    border-radius: 5rem;
+    border-radius: 2rem;
 
     /*da cancellare sotto*/
     background-color: blue;
@@ -68,7 +68,27 @@ section.app-store{
     }
 }
 
+/*SECTION STRATEGIC PLANNING*/
 
+section.planning{
+    background-color: #9592e5;
+}
+
+.items{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5rem;
+
+    /*da cancellare sotto*/
+    background-color: yellow;
+    height: 300px;
+}
+
+@media screen and (min-width:768px){
+    section.planning>.items{
+        width: 50%;
+    }
+}
 
 /*elementi da cancellare*/
 
@@ -89,4 +109,3 @@ section.app-store{
     background-color: yellow;
     border: 2px dotted green;
 }
-
