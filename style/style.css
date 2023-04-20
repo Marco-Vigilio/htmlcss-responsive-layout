@@ -9,6 +9,10 @@
     padding: 0 20px;
 }
 
+section{
+    padding: 2.5rem 0;
+}
+
 .flex{
     display: flex;
 }
@@ -31,7 +35,7 @@ ul{
 a{
     text-decoration: none;
     color: white;
-    padding: 0 .5rem;
+    margin: 0 1rem;
 }
 
 /*header*/
@@ -60,20 +64,31 @@ nav img{
     }
 }
 
-/*SECTION APP STORE*/
-
 div.container{
     gap: 1.5rem; /*----------------------ATTENZIONE AL GAP*/
+}
+
+/*SECTION APP STORE*/
+
+.app-store .cells > div{
+    width: calc(100%/2);
 }
 
 .cells{
     width: 100%;
     margin: 0 auto;
-    border-radius: 2rem;
-
+    border-radius: 1rem;
+    padding: 0 1rem;
     /*da cancellare sotto*/
     background-color: blue;
-    height: 300px;
+}
+
+.app-store img{
+    width: 70%;
+}
+
+i{
+    width: 4rem;
 }
 
 @media screen and (min-width:480px) {
@@ -169,5 +184,9 @@ footer{
     width: 100%;
     height: 500px;
     background-color: yellow;
+    border: 2px dotted green;
+}
+
+.trat{
     border: 2px dotted green;
 }
