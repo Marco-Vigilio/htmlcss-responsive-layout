@@ -93,7 +93,7 @@ i{
     text-align: center;
 }
 
-.app-store .cell-big > div:first-child{
+.app-store .cell-big>div:first-child{
     text-align: left;
 }
 
@@ -105,11 +105,19 @@ i{
     .cell-big{
     width: calc( (100% / 3) * 2);
     }
+
+    .app-store .cell-big > div:last-child{
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:768px){
     .app-store .cells > div{
         width: calc(100%/2);
+    }
+
+    .app-store .cell-big > div:last-child{
+        text-align: center;
     }
 }
 
