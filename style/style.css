@@ -93,6 +93,24 @@ div.container{
     }
 }
 
+/*SECTION BENEFITS*/
+
+section.benefits{
+    background-color: #9592e5;
+}
+
+@media screen and (min-width:480px) {
+    .benefits>.container>.cells{
+        width: calc((100%/2) - 1.5rem);
+    }
+}
+
+@media screen and (min-width:768px){
+    .benefits>.container>.cells{
+        width: calc((100%/3) - 1.5rem);
+    }
+}
+
 /*elementi da cancellare*/
 
 .sfondo{
