@@ -111,6 +111,19 @@ section.benefits{
     }
 }
 
+/*SECTION ABOUT US*/
+
+@media screen and (min-width:480px) {
+    /*
+    .about-us>.container{
+        flex-direction: row;
+    }
+    */
+    .about-us>.container>.items{
+        width: calc((100% / 2) - 1.5rem);
+    }
+}
+
 /*elementi da cancellare*/
 
 .sfondo{
