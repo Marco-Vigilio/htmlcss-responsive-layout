@@ -37,6 +37,39 @@ header{
     }
 }
 
+/*section app store*/
+
+section.app-store{
+    gap: 1.5rem;
+}
+
+.cells{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5rem;
+
+    /*da cancellare sotto*/
+    background-color: blue;
+    height: 300px;
+}
+
+@media screen and (min-width:480px) {
+    
+    .cells{
+        width: calc(100%/3 - 1.5rem);
+    }
+
+    .cell-big{
+    width: calc( (100% / 3) * 2);
+    }
+
+    section.app-store{
+        background-color: aqua;
+    }
+}
+
+
+
 /*elementi da cancellare*/
 
 .sfondo{
