@@ -7,15 +7,48 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
-
+/*TUTTO QUELLO CHE RIGUARDA IL CONTAINER*/
 .container {
     margin: 0 auto;
     padding: 0 20px;
 }
 
+@media screen and (min-width: 768px){    
+    .container{
+        width: 940px;/*--TUTTI I CONTAINER IN GRANDEZZA TABLET IN SU*/
+    }
+
+}
+
+div.container{
+    gap: 1.5rem; /*----------------------ATTENZIONE AL GAP*/
+}
+/*----------------------fine container*/
+
 section{
     padding: 2.5rem 0;
 }
+
+/*----------------items e cells*/
+.cells{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    /*da cancellare sotto*/
+    background-color: blue;
+}
+
+.items{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4rem;
+    padding: 2rem;
+    /*da cancellare sotto*/
+    background-color: yellow;
+    border: 1px black solid;
+}
+/*----------------------------*/
 
 .flex{
     display: flex;
@@ -80,7 +113,6 @@ header ul:last-child li + li{
         display: none;
 }
 
-
 @media screen and (min-width: 768px){
 
     header ul:last-child li{
@@ -93,35 +125,35 @@ header ul:last-child li + li{
 
     header ul:last-child li + li{
         display: flex;
-    }    
-
-    .container{
-        width: 940px;/*--TUTTI I CONTAINER IN GRANDEZZA TABLET IN SU*/
     }
 }
 
-
-
 /*SECTION APP STORE*/
 
-div.container{
-    gap: 1.5rem; /*----------------------ATTENZIONE AL GAP*/
+.app-store h4{
+    font-size: 1.2rem;
 }
 
-.cells{
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 1rem;
-    padding: 0 1rem;
-    /*da cancellare sotto*/
-    background-color: blue;
+.app-store .cells{
+    background-color: #B5DDFF;
+}
+
+.app-store .botton{
+    width: 60%;
+}
+
+.app-store .botton, .app-store .botton>i{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.app-store .cells>div:last-child{
+    position: relative;
 }
 
 .app-store img{
     width: 70%;/*---------------------------dim immagine*/
 }
-
-
 
 .app-store .cells{
     text-align: center;
@@ -161,15 +193,7 @@ div.container{
     background-color: #9592e5;
 }
 
-.items{
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 4rem;
-    padding: 2rem;
-    /*da cancellare sotto*/
-    background-color: yellow;
-    border: 1px black solid;
-}
+
 
 .planning img{
     width: 100%;/*---------------------------dim immagine*/
@@ -314,6 +338,22 @@ footer{
 
 .bg-violet{
     background-color: #9592e5;
+}
+
+.bg-blue{
+    background-color: #0084FD;
+}
+
+.blue{
+    color: #0084FD;
+}
+
+.violet{
+    color: #9592e5;
+}
+
+.white{
+    color: white;
 }
 
 /*elementi da cancellare*/
