@@ -153,6 +153,8 @@ header ul:last-child li + li{
 
 .app-store img{
     width: 70%;/*---------------------------dim immagine*/
+    position: relative;
+    bottom: -3.2rem;
 }
 
 .app-store .cells{
