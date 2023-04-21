@@ -145,7 +145,7 @@ i{
     text-align: center;
 }
 
-.planning>.container>.items:last-child>img{
+.planning>.container>.items:last-child>img{/*---dim immagine*/
     width: 70%;
 }
 
@@ -175,7 +175,7 @@ i{
     margin: 0 auto;
 }
 
-.partners img{
+.partners img, .about-us img{/*-dim immagine tonda (condivisa)*/
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -222,6 +222,14 @@ section.benefits h2{
 }
 
 /*SECTION ABOUT US*/
+
+.about-us .cells:last-child{
+    text-align: center;
+}
+
+.about-us .cells:last-child p, .about-us .cells:last-child div{
+    text-align: left;
+}
 
 @media screen and (min-width:480px) {
     /*
