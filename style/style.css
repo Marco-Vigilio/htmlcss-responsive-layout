@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 20px;
@@ -32,7 +36,15 @@ ul{
     list-style: none;
 }
 
+i{
+    font-size: 4rem;
+}
 
+.botton{
+    border-radius: 2rem;
+    border: 1px solid;
+    padding: .3rem .7rem;
+}
 
 /*header*/
 
@@ -44,7 +56,6 @@ header{
 nav a{
     text-decoration: none;
     color: white;
-    margin: 0 1rem;
 }
 
 nav>ul{
@@ -52,27 +63,50 @@ nav>ul{
     align-items: center;
 }
 
+header li, header i{
+    font-size: .9rem;
+}
+
 nav img{
     width: 78%;
 }
 
+header .botton{
+    color: black;
+    border-color: white;
+}
+
+header ul:last-child li + li{
+        display: none;
+}
+
+
 @media screen and (min-width: 768px){
-    header{
-        background-color: blueviolet;
+
+    header ul:last-child li{
+        padding-left: 1.5rem;
     }
 
+    header ul:last-child li:first-child{
+        display: none;
+    }
+
+    header ul:last-child li + li{
+        display: flex;
+    }    
+
     .container{
-        width: 940px;
+        width: 940px;/*--TUTTI I CONTAINER IN GRANDEZZA TABLET IN SU*/
     }
 }
+
+
+
+/*SECTION APP STORE*/
 
 div.container{
     gap: 1.5rem; /*----------------------ATTENZIONE AL GAP*/
 }
-
-/*SECTION APP STORE*/
-
-
 
 .cells{
     width: 100%;
@@ -87,9 +121,7 @@ div.container{
     width: 70%;/*---------------------------dim immagine*/
 }
 
-i{
-    font-size: 4rem;
-}
+
 
 .app-store .cells{
     text-align: center;
@@ -274,6 +306,15 @@ footer{
     text-align: center;
 }
 
+/*colori*/
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-violet{
+    background-color: #9592e5;
+}
 
 /*elementi da cancellare*/
 
