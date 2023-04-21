@@ -175,18 +175,11 @@ i{
     margin: 0 auto;
 }
 
-.partners .items div:first-child{
-    position: relative;
+.partners img{
     width: 200px;
     height: 200px;
-    overflow: hidden;
     border-radius: 50%;
-}
-
-.partners img{
-    width: auto;
-    height: 100%;
-    margin-left: -50px;
+    object-fit: cover;
 }
 
 
@@ -203,10 +196,6 @@ i{
     .partners .items div{
         margin: 0;
         align-self: center;
-    }
-
-    .partners .items div:last-child{
-        width: 70%;
     }
 }
 
