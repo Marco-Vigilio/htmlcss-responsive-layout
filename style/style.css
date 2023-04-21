@@ -13,9 +13,9 @@ body{
     padding: 0 20px;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 768px){
     .container{
-        width: 940px;/*--TUTTI I CONTAINER IN GRANDEZZA TABLET IN SU*/
+        max-width: 940px;/*--TUTTI I CONTAINER IN GRANDEZZA TABLET IN SU*/
     }
 }    
 
@@ -232,25 +232,41 @@ header ul:last-child li + li{
 }
 
 .planning .container{
-    width: 750px;
+    max-width: 750px;
+}
+
+.planning .col{
+    width: 100%;
 }
 
 .planning img{
-    width: 100%;/*---------------------------dim immagine*/
+    width: 90%;/*---------------------------dim immagine*/
 }
 
 .planning>.container>.col:last-child{
     text-align: center;
     color: black;
+    border-radius: 2rem;
 }
 
 .planning>.container>.col:last-child>img{/*---dim immagine*/
-    width: 50%;
+    width: 100%;
+}
+
+.planning .col{
+    position: relative;
 }
 
 .freccia{
+    width: 2rem;
+    height: 2rem;
     border-radius:50%;
-    border: 1px solid black;
+    border: 1px solid #9592e5;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /*non va*/
+    font-size: 1.1rem;
+    padding-top: .2rem;
 }
 
 @media screen and (min-width:768px){
@@ -258,6 +274,24 @@ header ul:last-child li + li{
         flex-wrap: nowrap;
     }
     
+    .planning .col{
+        width: 50%;
+    }
+
+    .planning>.container>.col:last-child>img{
+        width: 50%;
+    }
+
+    .planning>.container>.col:last-child{
+        margin-top: 5rem;
+    }
+
+    .freccia{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        translate: calc(-50%);
+    }
     /*
     .planning>.container>.col{
         width: calc((100% / 2) - 1.5rem); ATTENZIONE AL GAP
