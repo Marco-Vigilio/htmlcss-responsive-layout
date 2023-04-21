@@ -176,8 +176,12 @@ i{
 }
 
 .partners img, .about-us img{/*-dim immagine tonda (condivisa)*/
+    /*
     width: 200px;
     height: 200px;
+    */
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -245,7 +249,20 @@ section.benefits h2{
 /*SECTION FREE*/
 
 section.free{
+    text-align: center;
+}
+
+
+
+section.free{
     background-color: #9592e5;
+}
+
+@media screen and (min-width:480px) {
+    .free .little-container{
+    max-width: 40%;
+    margin: 0 auto;
+    }
 }
 
 /*footer*/
