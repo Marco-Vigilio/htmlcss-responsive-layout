@@ -32,17 +32,19 @@ ul{
     list-style: none;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    margin: 0 1rem;
-}
+
 
 /*header*/
 
 header{
     background-color: #0084fd;
     color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
 }
 
 nav>ul{
@@ -269,7 +271,9 @@ section.free{
 
 footer{
     background-color: #333333;
+    text-align: center;
 }
+
 
 /*elementi da cancellare*/
 
