@@ -45,7 +45,6 @@ section{
     padding: 2rem;
     /*da cancellare sotto*/
     background-color: yellow;
-    border: 1px black solid;
 }
 /*----------------------------*/
 
@@ -66,6 +65,10 @@ section{
 
 .flex-center{
     justify-content: center;
+}
+
+span{
+    text-transform: uppercase;
 }
 
 a{
@@ -309,6 +312,26 @@ header ul:last-child li + li{
 
 .partners .items{
     text-align: center;
+    background-color: #9592e5;
+    color: white;
+}
+
+.partners .items:first-child{
+    background: none;
+    color: black;
+}
+
+.partners .carattere{
+    font-size: 2rem;
+}
+
+.partners .name{
+    letter-spacing: .1rem;
+}
+
+.partners h2{
+    color: #9592e5;
+    font-size: 2.4rem;
 }
 
 .partners .items div{
