@@ -143,8 +143,14 @@ header ul:last-child li + li{
 }
 
 .app-store .botton, .app-store .botton>i{
-    font-size: 1rem;
+    font-size: .9rem;
+}
+
+.app-store .botton{
     text-align: center;
+    letter-spacing: .1rem;
+    border-color: #0084FD;
+    font-weight: bold;
 }
 
 .app-store .cells:first-child{
@@ -161,9 +167,8 @@ header ul:last-child li + li{
 }
 
 .app-store img{
-    width: 50%;/*---------------------------dim immagine*/
-    position: absolute;
-    bottom: 0;
+    width: 60%;/*---------------------------dim immagine*/
+    vertical-align: bottom;
 }
 
 .app-store .cells{
@@ -185,7 +190,9 @@ header ul:last-child li + li{
     width: calc( (100% / 3) * 2);
     }
 
-    
+    .app-store .cell-big > div:last-child{
+        text-align: left;
+    }
 }
 
 @media screen and (min-width:768px){
@@ -196,6 +203,14 @@ header ul:last-child li + li{
     .app-store .cell-big > div:last-child{
         text-align: center;
     }
+
+    .app-store img{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        translate:calc(-50%);
+    }
+
 }
 
 /*SECTION STRATEGIC PLANNING*/
