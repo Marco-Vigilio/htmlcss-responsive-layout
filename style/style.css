@@ -97,6 +97,10 @@ h3{
     font-size: 1.5rem;
 }
 
+h2{
+    font-size: 2.4rem;
+}
+
 /*header*/
 
 header{
@@ -331,7 +335,6 @@ header ul:last-child li + li{
 
 .partners h2{
     color: #9592e5;
-    font-size: 2.4rem;
 }
 
 .partners .items div{
@@ -372,8 +375,31 @@ section.benefits{
     background-color: #9592e5;
 }
 
-section.benefits h2{
+.benefits i, .benefits h4{
+    color: #9592e5;
+}
+
+.benefits i{
+    font-size: 3rem;
+}
+
+.benefits h2{
     text-align: center;
+    color: white;
+}
+
+.benefits .cells{
+    background-color: white;
+}
+
+.benefits .botton{
+    color: white;
+    text-align: center;
+    width: 40%;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+    font-weight: bold;
+    padding: .4rem 1rem;
 }
 
 @media screen and (min-width:480px) {
