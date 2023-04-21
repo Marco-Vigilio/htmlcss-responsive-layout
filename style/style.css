@@ -147,14 +147,23 @@ header ul:last-child li + li{
     text-align: center;
 }
 
+.app-store .cells:first-child{
+    padding: 0;
+}
+
+.app-store .cells>div:first-child{
+    padding: 1rem;
+}
+
 .app-store .cells>div:last-child{
     position: relative;
+    padding: 0;
 }
 
 .app-store img{
-    width: 70%;/*---------------------------dim immagine*/
-    position: relative;
-    bottom: -3.2rem;
+    width: 50%;/*---------------------------dim immagine*/
+    position: absolute;
+    bottom: 0;
 }
 
 .app-store .cells{
@@ -165,6 +174,8 @@ header ul:last-child li + li{
     text-align: left;
 }
 
+
+
 @media screen and (min-width:480px) {
     .cells{
         width: calc(100%/3 - 1.5rem); /*ATTENZIONE AL GAP*/
@@ -174,9 +185,7 @@ header ul:last-child li + li{
     width: calc( (100% / 3) * 2);
     }
 
-    .app-store .cell-big > div:last-child{
-        text-align: left;
-    }
+    
 }
 
 @media screen and (min-width:768px){
