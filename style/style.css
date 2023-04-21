@@ -68,6 +68,10 @@ section{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
     list-style: none;
 }
@@ -86,7 +90,9 @@ h4{
     font-size: 1.2rem;
 }
 
-
+h3{
+    font-size: 1.5rem;
+}
 
 /*header*/
 
@@ -96,7 +102,6 @@ header{
 }
 
 nav a{
-    text-decoration: none;
     color: white;
 }
 
@@ -156,6 +161,7 @@ header ul:last-child li + li{
     letter-spacing: .1rem;
     border-color: #0084FD;
     font-weight: bold;
+    color: white;
 }
 
 .app-store .cells:first-child{
@@ -239,7 +245,7 @@ header ul:last-child li + li{
 }
 
 .planning>.container>.col:last-child>img{/*---dim immagine*/
-    width: 30%;
+    width: 50%;
 }
 
 .freccia{
