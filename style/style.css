@@ -85,6 +85,8 @@ i{
 .botton{
     border-radius: 2rem;
     padding: .3rem .7rem;
+    font-weight: bold;
+    border: 2px solid;
 }
 
 .botton, .botton i{
@@ -127,12 +129,21 @@ header li, header i{
     font-size: .9rem;
 }
 
+header ul:last-child li:nth-child(-n+5){
+    opacity: 90%;
+}
+
+header .botton{
+    font-weight:normal;
+}
+
 nav img{
     width: 78%;
 }
 
 header .botton{
     color: black;
+    border-color: white;
 }
 
 header ul:last-child li + li{
@@ -142,11 +153,12 @@ header ul:last-child li + li{
 @media screen and (min-width: 768px){
 
     header ul:last-child li{
-        padding-left: 1.5rem;
+        padding-left: 1.6rem;
     }
 
     header ul:last-child li:first-child{
         display: none;
+        opacity: 100%;
     }
 
     header ul:last-child li + li{
@@ -167,7 +179,6 @@ header ul:last-child li + li{
 .app-store .botton{
     text-align: center;
     letter-spacing: .1rem;
-    font-weight: bold;
     color: white;
 }
 
@@ -385,7 +396,6 @@ section.benefits{
     text-align: center;
     width: 40%;
     letter-spacing: .1rem;
-    font-weight: bold;
     padding: .4rem 1rem;
 }
 
@@ -472,11 +482,12 @@ section.free{
 
 .free .botton{
     background-color: white;
+    width: 50%;
+    margin: 0 auto;
     color: #9592e5;
     font-size: 1.2rem;
     letter-spacing: .1rem;
     padding: 1.2rem 0;
-    font-weight: bold;
 }
 
 .free .point{
