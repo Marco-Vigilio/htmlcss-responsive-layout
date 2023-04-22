@@ -35,7 +35,6 @@ section{
     border-radius: 1rem;
     padding: 1rem;
     /*da cancellare sotto*/
-    background-color: blue;
 }
 
 .items{
@@ -85,8 +84,11 @@ i{
 
 .botton{
     border-radius: 2rem;
-    border: 1px solid;
     padding: .3rem .7rem;
+}
+
+.botton, .botton i{
+    font-size: .9rem;
 }
 
 h4{
@@ -99,6 +101,10 @@ h3{
 
 h2{
     font-size: 2.4rem;
+}
+
+h1{
+    font-size: 3.5rem;
 }
 
 /*header*/
@@ -127,7 +133,6 @@ nav img{
 
 header .botton{
     color: black;
-    border-color: white;
 }
 
 header ul:last-child li + li{
@@ -159,14 +164,9 @@ header ul:last-child li + li{
     width: 60%;
 }
 
-.app-store .botton, .app-store .botton>i{
-    font-size: .9rem;
-}
-
 .app-store .botton{
     text-align: center;
     letter-spacing: .1rem;
-    border-color: #0084FD;
     font-weight: bold;
     color: white;
 }
@@ -268,7 +268,6 @@ header ul:last-child li + li{
     width: 2rem;
     height: 2rem;
     border-radius:50%;
-    border: 1px solid #9592e5;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; /*non va*/
@@ -299,17 +298,6 @@ header ul:last-child li + li{
         left: 50%;
         translate: calc(-50%);
     }
-    /*
-    .planning>.container>.col{
-        width: calc((100% / 2) - 1.5rem); ATTENZIONE AL GAP
-    }
-    
-
-    .planning>.container>.col:last-child{
-        margin-top: 8rem;
-        width: 40%;
-    }
-    */
 }
 
 /*SECTION PARTNERS*/
@@ -397,7 +385,6 @@ section.benefits{
     text-align: center;
     width: 40%;
     letter-spacing: .1rem;
-    font-size: .8rem;
     font-weight: bold;
     padding: .4rem 1rem;
 }
@@ -416,12 +403,43 @@ section.benefits{
 
 /*SECTION ABOUT US*/
 
+.about-us h1{
+    color: #9592e5;
+}
+
+.about-us .cells:first-child p{
+    line-height: 2rem;
+    padding: 1.5rem 0;
+}
+
 .about-us .cells:last-child{
     text-align: center;
 }
 
-.about-us .cells:last-child p, .about-us .cells:last-child div{
+.about-us .cells:last-child p{
     text-align: left;
+}
+
+.about-us .botton{
+    background-color: #9592e5;
+    color: white;
+}
+
+.about-us .cells:last-child>div{
+    position: relative;
+}
+
+.about-us .carattere{
+    position: absolute;
+    right: 4rem;
+    font-size: 4rem;
+    color: #9592e5;
+}
+
+.about-us .cells:last-child p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #9592e5;
 }
 
 @media screen and (min-width:480px) {
