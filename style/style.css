@@ -456,18 +456,23 @@ section.benefits{
 /*SECTION FREE*/
 
 section.free{
+    background-color: #9592e5;
     text-align: center;
+    color: white;
 }
 
+.free span{
+    opacity: 40%;
+}
 
-
-section.free{
-    background-color: #9592e5;
+.free h1{
+    color: #FDC15F;
+    font-size: 4.5rem;
 }
 
 @media screen and (min-width:480px) {
     .free .little-container{
-    max-width: 20%;
+    max-width: 50%;
     margin: 0 auto;
     }
 }
@@ -476,6 +481,7 @@ section.free{
 
 footer{
     background-color: #333333;
+    color: white;
     text-align: center;
 }
 
