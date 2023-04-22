@@ -470,6 +470,26 @@ section.free{
     font-size: 4.5rem;
 }
 
+.free .botton{
+    background-color: white;
+    color: #9592e5;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    padding: 1.2rem 0;
+    font-weight: bold;
+}
+
+.free .point{
+    opacity: 100%;
+    font-size: 2rem;
+    vertical-align: -10%;
+}
+
+.free a{
+    text-decoration: underline;
+    color: white;
+}
+
 @media screen and (min-width:480px) {
     .free .little-container{
     max-width: 50%;
@@ -483,6 +503,11 @@ footer{
     background-color: #333333;
     color: white;
     text-align: center;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #9592e5;
 }
 
 /*colori*/
