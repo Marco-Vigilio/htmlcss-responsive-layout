@@ -20,7 +20,7 @@ body{
 }    
 
 div.container{
-    gap: 1.5rem; /*----------------------ATTENZIONE AL GAP*/
+    gap: 1rem; /*----------------------ATTENZIONE AL GAP*/
 }
 /*----------------------fine container*/
 
@@ -33,7 +33,7 @@ section{
     width: 100%;
     margin: 0 auto;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     /*da cancellare sotto*/
 }
 
@@ -95,6 +95,7 @@ i{
 
 h4{
     font-size: 1.2rem;
+    padding: 1rem 0;
 }
 
 h3{
@@ -172,14 +173,23 @@ header ul:last-child li + li{
     background-color: #B5DDFF;
 }
 
+.app-store p{
+    font-size: .9rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    opacity: 50%;
+}
+
 .app-store .botton{
     width: 60%;
 }
 
 .app-store .botton{
+    margin-top: 1.5rem;
     text-align: center;
     letter-spacing: .1rem;
     color: white;
+    border-color:#0084fd;
 }
 
 .app-store .cells:first-child{
@@ -187,7 +197,7 @@ header ul:last-child li + li{
 }
 
 .app-store .cells>div:first-child{
-    padding: 1rem;
+    padding: .5rem 1rem;
 }
 
 .app-store .cells>div:last-child{
@@ -196,7 +206,7 @@ header ul:last-child li + li{
 }
 
 .app-store img{
-    width: 60%;/*---------------------------dim immagine*/
+    width: 65%;/*---------------------------dim immagine*/
     vertical-align: bottom;
 }
 
@@ -212,11 +222,11 @@ header ul:last-child li + li{
 
 @media screen and (min-width:480px) {
     .cells{
-        width: calc(100%/3 - 1.5rem); /*ATTENZIONE AL GAP*/
+        width: calc(100%/3 - .8rem); /*ATTENZIONE AL GAP*/
     }
 
     .cell-big{
-    width: calc( (100% / 3) * 2);
+    width: calc( ((100% / 3) * 2) - .5rem);
     }
 
     .app-store .cell-big > div:last-child{
