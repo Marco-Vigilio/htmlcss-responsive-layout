@@ -24,10 +24,6 @@ div.container{
 }
 /*----------------------fine container*/
 
-section{
-    padding: 2.5rem 0;
-}
-
 /*----------------items e cells*/
 .cells{
     width: 100%;
@@ -168,6 +164,10 @@ header ul:last-child li + li{
 }
 
 /*SECTION APP STORE*/
+
+.app-store{
+    padding: 2.5rem 0 7.5rem;
+}
 
 .app-store .cells{
     background-color: #B5DDFF;
