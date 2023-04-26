@@ -95,7 +95,7 @@ h4{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 h2{
@@ -166,7 +166,7 @@ header ul:last-child li + li{
 /*SECTION APP STORE*/
 
 .app-store{
-    padding: 2.5rem 0 7.5rem;
+    padding: 2.5rem 0 5rem;
 }
 
 .app-store .cells{
@@ -257,6 +257,7 @@ header ul:last-child li + li{
 .planning{
     background-color: #9592e5;
     color: white;
+    padding: 6.5rem 0 3rem;
 }
 
 .planning .container{
@@ -268,21 +269,40 @@ header ul:last-child li + li{
 }
 
 .planning img{
-    width: 90%;/*---------------------------dim immagine*/
+    width: 95%;/*---------------------------dim immagine*/
+}
+
+.planning .col:first-child div{
+    margin-top: 6rem;
 }
 
 .planning>.container>.col:last-child{
     text-align: center;
     color: black;
     border-radius: 2rem;
+    padding: 1.5rem;
 }
 
 .planning>.container>.col:last-child>img{/*---dim immagine*/
     width: 100%;
 }
 
+.planning .col:first-child p{
+    font-size: .8rem;
+    line-height: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+.planning .col:last-child p{
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    padding-bottom: 2.5rem;
+}
+
 .planning .col{
     position: relative;
+    margin: 0 1rem;
 }
 
 .freccia{
@@ -294,6 +314,8 @@ header ul:last-child li + li{
     font-weight: bold; /*non va*/
     font-size: 1.1rem;
     padding-top: .2rem;
+    background-color: #9592e5;
+    color: black;
 }
 
 @media screen and (min-width:768px){
@@ -306,16 +328,16 @@ header ul:last-child li + li{
     }
 
     .planning>.container>.col:last-child>img{
-        width: 50%;
+        width: 70%;
     }
 
     .planning>.container>.col:last-child{
-        margin-top: 5rem;
+        margin-top: 9rem;
     }
 
     .freccia{
         position: absolute;
-        bottom: 0;
+        bottom: 1rem;
         left: 50%;
         translate: calc(-50%);
     }
